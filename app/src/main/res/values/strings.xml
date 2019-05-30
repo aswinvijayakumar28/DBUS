@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DBUS</string>
+
+    <string-array name="bus_1">
+        <item>01_Vytilla</item>
+        <item>02_Chambakkara</item>
+        <item>03_Petta</item>
+        <item>04_SN Junction</item>
+        <item>05_Irumbanam</item>
+        <item>06_Manakkapadi</item>
+        <item>07_HP Pump</item>
+
+    </string-array>
+
+    <string-array name="bus_2">
+        <item>01_Aluva</item>
+        <item>02_Pulinchodu</item>
+        <item>03_Companypadi</item>
+        <item>04_Ambattukavu</item>
+        <item>05_Muttom</item>
+        <item>06_Kalamassery</item>
+        <item>07_HMT Junction</item>
+        <item>08_Vallatol Nagar</item>
+        <item>09_BMC</item>
+        <item>10_Kakkanad</item>
+
+    </string-array>
+
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+    <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+</resources>
+

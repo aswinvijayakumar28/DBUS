@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".sq">
+
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Security Question"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="179dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/sq1" />
+
+    <EditText
+        android:id="@+id/usernametv"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="303dp"
+        android:hint="Username"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/passwordtv"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="248dp"
+        android:hint="Password"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/securityquestiontv"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="192dp"
+        android:hint="New Security Question"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/securityanswertv"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="136dp"
+        android:hint="New Answer"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/resetsq"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/btn_style"
+        android:text="RESET" />
+
+
+
+</RelativeLayout>
